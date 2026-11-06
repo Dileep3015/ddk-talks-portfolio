@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1100" role="img" aria-labelledby="title desc">
+  <title id="title">DDK Talks abstract artwork</title>
+  <desc id="desc">Warm coral, olive, lavender, and cream abstract paper collage inspired by thoughtful writing.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#f4efe7"/>
+      <stop offset="100%" stop-color="#ddd3c3"/>
+    </linearGradient>
+    <linearGradient id="lavender" x1="0" x2="1">
+      <stop offset="0%" stop-color="#ddd0ef"/>
+      <stop offset="100%" stop-color="#c7b9de"/>
+    </linearGradient>
+    <linearGradient id="olive" x1="0" x2="1">
+      <stop offset="0%" stop-color="#4f5e4c"/>
+      <stop offset="100%" stop-color="#384838"/>
+    </linearGradient>
+    <filter id="grain">
+      <feTurbulence baseFrequency="0.9" numOctaves="2" type="fractalNoise"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer>
+        <feFuncA type="table" tableValues="0 0.07"/>
+      </feComponentTransfer>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="1100" fill="url(#bg)"/>
+  <g opacity="0.55" filter="url(#grain)">
+    <rect width="1200" height="1100" fill="#f9f5ee"/>
+  </g>
+
+  <g>
+    <rect x="0" y="0" width="1200" height="1100" fill="none" stroke="#20211d" stroke-opacity="0.18" stroke-width="2"/>
+
+    <path d="M164 796c95-145 148-218 322-281 164-59 390-84 518-26 86 39 139 110 178 206-160 73-322 96-485 110-186 16-347 5-533-9z" fill="#e65a41" opacity="0.9"/>
+    <path d="M710 160c96 45 176 121 238 224 101 164 91 337-58 469-142 125-380 165-548 75 39-300 126-526 368-768z" fill="url(#lavender)" opacity="0.92"/>
+    <path d="M193 190c121-77 286-111 432-77 154 36 322 155 431 302-31 64-112 147-220 183-142 47-311 44-472 7-103-24-192-73-242-156-22-38-35-103-2-159 28-50 64-87 73-100z" fill="#f8efe9" opacity="0.96"/>
+    <path d="M825 455c57 25 102 90 125 159 28 80 17 175-46 211-65 38-167 27-230-40-52-55-78-129-74-214 5-96 63-170 144-195 36-12 58-7 81 79z" fill="#2f4131" opacity="0.92"/>
+
+    <circle cx="306" cy="350" r="110" fill="#f1d9b2" opacity="0.85"/>
+    <circle cx="994" cy="360" r="126" fill="#f6b2a0" opacity="0.8"/>
+    <circle cx="332" cy="760" r="104" fill="#d9d0eb" opacity="0.9"/>
+
+    <g opacity="0.85" stroke="#20211d" stroke-width="2" fill="none">
+      <circle cx="720" cy="250" r="132"/>
+      <circle cx="720" cy="250" r="94"/>
+      <circle cx="720" cy="250" r="52"/>
+      <path d="M609 250h222M720 139v222"/>
+    </g>
+
+    <g opacity="0.75">
+      <path d="M141 514l130-101 138 148-127 99z" fill="#f7efe7"/>
+      <path d="M905 755l114-84 105 111-123 92z" fill="#f5d7b7"/>
+    </g>
+
+    <g fill="#20211d" font-family="Georgia, serif" font-size="62" font-style="italic">
+      <text x="181" y=" du"> </text>
+    </g>
+  </g>
+
+  <g fill="#20211d" font-family="Arial, sans-serif" font-size="24" letter-spacing="8">
+    <text x="908" y="960">DDK</text>
+  </g>
+  <g fill="#e65a41" font-family="Georgia, serif" font-size="44" font-style="italic">
+    <text x="985" y="1000">✳</text>
+  </g>
+</svg>
