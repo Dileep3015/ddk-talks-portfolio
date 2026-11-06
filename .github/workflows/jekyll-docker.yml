@@ -1,20 +1,11 @@
-name: Jekyll site CI
+name: Jekyll site CI (disabled)
 
+# Retained as a manual-only placeholder. Static site deployments run via pages.yml.
 on:
-  push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
+  workflow_dispatch:
 
 jobs:
-  build:
-
+  retired:
     runs-on: ubuntu-latest
-
     steps:
-    - uses: actions/checkout@v4
-    - name: Build the site in the jekyll/builder container
-      run: |
-        docker run \
-        -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
-        jekyll/builder:latest /bin/bash -c "chmod -R 777 /srv/jekyll && jekyll build --future"
+      - run: echo "This Jekyll workflow is retired. Use the GitHub Pages deployment workflow instead."
