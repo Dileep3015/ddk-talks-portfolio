@@ -1,0 +1,3 @@
+﻿User-agent: *
+Allow: /
+Sitemap: https://dileep3015.github.io/ddk-talks-portfolio/sitemap.xml
